@@ -1,0 +1,47 @@
+body {
+    background-color:beige
+}
+
+#first-paragraph {
+    color: blue;
+    background-color:aqua
+    text
+   
+}
+
+#second-paragraph {
+    color : blue;
+    background-color:brown;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#third-paragraph {
+    font-weight: bold;
+    background-color:blanchedalmond
+}
+
+#span1 {
+    color:black;
+    font-weight: bold;
+    font-size:48px
+}
+
+#span2 {
+    color:blue;
+    
+}
+
+#span2 {
+    font-style:italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color: blueviolet;
+}
+
+#span4 {
+    text-align: right;
+    color:bisque
+}
