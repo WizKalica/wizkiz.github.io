@@ -5,3 +5,9 @@ div {
 
     background-color: antiquewhite;
 }
+p {
+    background-color: cornflowerblue;
+    margin: 60px;
+    padding: 48px 60px;
+    border-radius: 48px;
+}
