@@ -1,0 +1,33 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: pink;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+
+}
+img {
+    width: 60%;
+}
+.blue {
+    background-color: lightblue;
+    width: 200px;
+    text-align: center;
+    
+}
+.yellow {
+    background-color: brown;
+   
+}
+.orange {
+    background-color: orange;
+    
+}
+
