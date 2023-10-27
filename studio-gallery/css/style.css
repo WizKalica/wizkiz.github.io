@@ -1,0 +1,29 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%
+    
+}
+.frame-1 {
+    border: 20px solid bisque;
+    margin: 78px 15px 0px;
+    box-shadow: -2px 2px 2px;
+    width: 120px;
+}
+.frame-1 div {
+    padding: 10px;
+    background-color: black;
+    
+}
+img{
+    width: 100%;
+}
+.frame-2 {
+    border:20px;
+}
