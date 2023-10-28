@@ -1,0 +1,31 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: solid black;
+    widows: 500px;
+}
+#left-side {
+    display: inline-block;
+}
+#right-side {
+    display: inline-block;
+}
+#address {
+   border: solid blue;
+
+}
+#small-pic {
+    border: solid red;
+}
+#data-fields {
+    border: solid white;
+}
+#signature {
+    border: solid magenta;
+}
