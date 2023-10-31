@@ -19,6 +19,10 @@ display: inline-block;
 
 #id-and-expiration div {
     display: inline-block;
+    padding-left: 6%;
+}
+span {
+    color: red;
 }
 
 #small-pic, #data-fields {
@@ -33,4 +37,22 @@ display: inline-block;
 #donor, 
 #real-id {
     display: inline-block;
+}
+h1 {
+    
+    color: navy;
+    
+}
+h4 {
+    background-color: navy;
+    margin: 5%;
+    color: white;
+    text-align: center;
+    display: block;
+}
+#address {
+    margin: 5%;
+}
+#small-pic {
+    width: ;
 }
