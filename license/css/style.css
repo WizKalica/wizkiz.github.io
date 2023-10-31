@@ -8,28 +8,29 @@
 */
 #license {
     border: solid black;
-    widows: 500px;
-}
-#left-side {
-    display: inline-block;
-}
-#right-side {
-    display: inline-block;
-}
-#address {
-   border: solid blue;
+    width: 700px;
+    background-color: orange;
+}    
 
+#left-side,
+#right-side {
+display: inline-block;
 }
-#small-pic {
-    border: solid red;
-    
+
+#id-and-expiration div {
+    display: inline-block;
 }
-#data-fields {
-    border: solid white;
+
+#small-pic, #data-fields {
+    display: inline-block;
+}
+#data-left, #data-right {
+    display: inline-block;
 }
 #signature {
-    border: solid magenta;
+    text-align: center;
 }
-div j6{
-
+#donor, 
+#real-id {
+    display: inline-block;
 }
