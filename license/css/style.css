@@ -27,6 +27,7 @@ span {
 
 #small-pic, #data-fields {
     display: inline-block;
+    margin: 68;
 }
 #data-left, #data-right {
     display: inline-block;
