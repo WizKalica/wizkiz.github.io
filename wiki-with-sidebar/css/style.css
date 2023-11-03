@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,14 +12,33 @@ body {
 
 img {
     width: 200px;
-   
+
+    
 }
 
 #sidebar-content {
     background-color: lightcyan;
-    flex: 1;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid black;
 }
-
+#sidebar-content h2 {
+    border-bottom: 2px solid black;
+    padding: 9px;
+}
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#sidebar-content ul a {
+    color: blue;
+    
+}
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
 #main-content {
     flex: 1;
+    padding: 48px;
+    
 }
