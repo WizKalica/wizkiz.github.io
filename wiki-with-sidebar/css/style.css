@@ -1,0 +1,22 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#two-colums {
+    display: flex;
+    
+}
+
+img {
+    width: 200px;
+   
+}
+
+#sidebar-content {
+    background-color: lightcyan;
+    flex: 1;
+}
+
+#main-content {
+    flex: 1;
+}
