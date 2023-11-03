@@ -22,15 +22,13 @@
     grid-area: three;
 }
 /* Drill 4 - Write your code solution below */
-
-
-/* Drill 5 - Write your code solution below */
 #container-d4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "one two three";
 }
+
 #d4-cell1 {
     grid-area: three;
 }
@@ -39,6 +37,45 @@
 }
 #d4-cell3 {
     grid-area: two;
+
 }
+/* Drill 5 - Write your code solution below */
+    #container-d5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "one one on "
+        "three two two"
+        ;
+    }
+    #d5cell1 {
+        grid-area: one;
+    }
+    #d5cell2 {
+        grid-area: 2;
+    }
+    #d5cell2 {
+        grid-area: 3;
+    }
+     
+
+
 /* Drill 6 - Write your code solution below */
+#container-d6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:  
+    "one two"
+    "three three"
+    ;
+}
+#d6-cell1 {
+    grid-area: one;
+}
+#d6-cell2 {
+    grid-area: two;
+}
+#d6-cell3 {
+    grid-area: three;
+}
 
