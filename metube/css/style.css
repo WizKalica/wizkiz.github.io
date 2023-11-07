@@ -39,7 +39,7 @@ body {
 
 #header #tube {
     color: white;
-    background-color: red;
+    background-color: skyblue;
     padding: 4px;
     border-radius: 12px;
 }
@@ -89,4 +89,8 @@ body {
 }
 img {
     width: 200px;
+    border-radius: 10px 20px;
+}
+body {
+    background-color: sandybrown;
 }
