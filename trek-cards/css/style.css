@@ -51,7 +51,7 @@ img {
 }
 
 #trek-card-1 {
-    min-height: 100vw;
+    min-height: 10vw;
     
 }
 #trek-card-1 {
@@ -83,19 +83,19 @@ img {
 
 #trek-card-1 p {
    padding: 12px;
+   
 }
 
 #trek-card-2 {
     min-height: 100vw;
+    background-color: lightgoldenrodyellow;
     
 }
-#trek-card-1 {
+#trek-card-3 {
     background-size: cover;
     background-position: center center;
     background-color: lightgoldenrodyellow;
 }
-.card-style-2 {
-    
-    flex-wrap: wrap;
-    align-items: flex-start;
+#trek-card-4 {
+    background-color: lightgoldenrodyellow;
 }
