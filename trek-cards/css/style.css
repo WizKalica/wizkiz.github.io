@@ -1,0 +1,101 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#trek-card-1 {
+    min-height: 100vw;
+    
+}
+#trek-card-1 {
+    background-size: cover;
+    background-position: center center;
+    background-color: lightgoldenrodyellow;
+}
+.card-style-1 {
+    
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+
+}
+#section-1 .card-style-1 {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    
+}
+img {
+    width: 350px;
+}
+.card-style-1 a {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+#trek-card-1 p {
+   padding: 12px;
+}
+
+#trek-card-1 {
+    min-height: 100vw;
+    
+}
+#trek-card-1 {
+    background-size: cover;
+    background-position: center center;
+    background-color: lightgoldenrodyellow;
+}
+.card-style-1 {
+    
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+
+}
+#section-1 .card-style-1 {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    
+}
+img {
+    width: 350px;
+}
+.card-style-1 a {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+#trek-card-1 p {
+   padding: 12px;
+}
+
+#trek-card-2 {
+    min-height: 100vw;
+    
+}
+#trek-card-1 {
+    background-size: cover;
+    background-position: center center;
+    background-color: lightgoldenrodyellow;
+}
+.card-style-2 {
+    
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
