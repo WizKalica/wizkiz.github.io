@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/Screenshot\ \(264\).png");
+    font-size: 10vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+    color: white;
+
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+.spacer {
+    height: 100vh;
+}
