@@ -7,20 +7,20 @@
     margin: 0px auto;
 }
     
-    #card-section {
-    background-color: #5b00ed;
+#card-section {
+    background-color: #340f70;
     color: #bfefff;
     padding: 48px;
 }
     
     
-    .card-container {
+.card-container {
     display: flex;
     justify-content: space-between;
 }
     
     
-    .card {
+.card {
     flex: 1;
     border: 3px solid #bfefff;
     padding: 36px;
@@ -28,7 +28,7 @@
     margin: 36px;
 }
     
-    .card h3 {
+.card h3 {
     font-size: 36px;
     margin: 0px;
 }
@@ -42,32 +42,139 @@ img {
     margin: 0px;
 }
 body {
-    margin: 0px;font-family: Arial, Helvetica, sans-serif;}
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
     
-    .single-column {
-    min-width: 600px;max-width: 1200px;margin: 0px auto;}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: left;
+}
     
-    #main-section {
-    background: radial-gradient(at top left, #d86fee,#8122ed);padding: 48px;}
-    
-    
-    
-    .side-by-side {
-    display: flex;align-items: center;margin: 48px 0px;}
-    
-    
-    .side-by-side .image-container {
-    flex: 1;}
-    
-    .side-by-side .text-container {
-    flex: 1;padding: 36px;}
-    
-    .side-by-side .image-container img {
-    width: 100%;}
-    
-    .side-by-side .text-container h3 {
-    font-size: 48px;}
+#main-section {
+    background-color: aquamarine;
+    padding: 48px;
+    margin: 0px;
+    column-width: 24%;
+}
     
     
-    .side-by-side .text-container a {
-    font-size: 28px;font-weight: bold;text-decoration: none;display: inline-block;background-color: #3f0791;color: white;padding: 24px 48px;border-radius: 48px;}
+    
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+    
+    
+.side-by-side .image-container {
+    flex: 1;
+}
+    
+.side-by-side .text-container {
+    flex: 1;padding: 36px;
+}
+    
+.side-by-side .image-container img {
+    width: 100%;
+}
+    
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+    
+#main-section {
+    padding: 48px;
+}
+    
+    
+.comparisons-container {
+    text-align: center;
+    
+    
+}
+    
+.comparisons-container h3 {
+    font-size: 36px;
+}
+    
+    
+    
+    
+.comparisons-layout-1 {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+    
+.comparisons-layout-1 .comparison-column {
+    background-color: #bfefff;
+    border: 3px solid #331439;
+    padding: 24px;
+}
+    
+.comparisons-layout-1 .comparison-column h4,
+    .comparisons-layout-1 .comparison-column p {
+    padding: 24px 48px;
+}
+    
+.comparisons-layout-1 .comparison-column h4 {
+    background-color: #3157c97d;
+    color: #bfefff;
+    font-size: 24px;
+    margin: 0px
+}
+    
+.comparisons-layout-1 .comparison-column p {
+    font-size: 18px;
+    margin: 0px;
+    border-top: 3px solid #000000;
+}
+    
+.comparisons-layout-1 .comparison-column .label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+    
+    
+    
+.comparisons-layout-2 {
+    background-color: whitesmoke;
+    padding: 36px;
+}
+    
+.comparison-row {
+    display: flex;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    color: #000000;
+}
+    
+.comparison-row.comparison-header {
+    font-weight: bold;
+}
+    
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
+}
+.comparisons-layout-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comparisons-layout-3 div {
+    padding: 30px;
+    font-size: 24px;
+    border-bottom: 3px solid #6600ff;
+}
+.comparisons-layout-3 .label {
+    font-weight: bold;
+}
