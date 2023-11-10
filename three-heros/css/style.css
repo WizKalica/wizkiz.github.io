@@ -7,16 +7,13 @@ body {
 }
 #hero-1 {
     background-image: url("../images/Screenshot\ \(264\).png");
-    font-size: 10vw;
-    height: 100vh;
+    height: 98%;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
-    
     color: white;
-
+    
 }
 #hero-1 h1 {
     font-size: 15vw;
@@ -24,4 +21,59 @@ body {
 }
 .spacer {
     height: 100vh;
+}
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgba(135, 10, 218, 0.512);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-2 {
+    background-image: url("../images/Screenshot\ \(265\).png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+#hero-2 h1 {
+    text-indent: 3%;
+}
+#hero-2 a {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: sandybrown;
+    text-decoration: none;
+    margin: 5vh 5vw 10vh 0px;
+    display: inline-block;
+
+}
+#hero-3 {
+    background-image: url("../images/Screenshot\ \(266\).png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    color: #000000;
+}
+#hero-3 h1, h2 {
+    padding: 24px;
+    margin-top: 10vw;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+#hero-3 a {
+    background-color: rgb(132, 22, 22);
+    padding: 20px;
+    color: lightskyblue;
+    text-decoration: none;
+    margin: 5vh 5vw 10vh 0px;
+    display: inline-block;
 }
