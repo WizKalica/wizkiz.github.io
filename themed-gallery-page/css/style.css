@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#hero {
+    background-image: url("../images/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+}
+#hero h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+    text-align: end;
+
+}
+.spacer {
+    height: 100vh;
+}
+#gallery {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    
+}
+h3 {
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
