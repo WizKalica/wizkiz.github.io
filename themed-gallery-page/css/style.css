@@ -32,6 +32,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .horizontal-masonry-gallery img {
@@ -45,4 +49,5 @@ h3 {
     text-decoration: line-through;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
+    color: lightseagreen;
 }
