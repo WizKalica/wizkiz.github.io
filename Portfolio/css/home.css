@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+#body {
+    margin: 24px;
+    padding: 30px;
+    background-color: lightslategray;
+}
+h1 {
+    text-align: center center;
+}
