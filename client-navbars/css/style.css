@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background-color: skyblue;
+    background: linear-gradient(to bottom, skyblue, lightgreen);
     display: flex;
     justify-content: space-between;
 
@@ -20,4 +20,19 @@ body {
 }
 h2 {
     color: white;
+}
+
+#hero-1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.spacer {
+    height: 100vh;
+}
+img {
+    width: 2000px;
 }
