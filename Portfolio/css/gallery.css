@@ -5,7 +5,7 @@ h1 {
     text-align: center;
 }
 body {
-    background-color: lightslategray;
+    background-color: lightcoral;
 }
 #layout {
     grid-template-columns: 1fr 1fr 1fr;
