@@ -137,8 +137,10 @@ body {
 
 @media screen and (max-width: 725px) {
     .hero-contenth1 {
-    font-size: 2.75rem;}.hero-contenth3 {
-    font-size: 1.125rem;}#main.cards{
+    font-size: 2.75rem;}
+    .hero-contenth3 {
+    font-size: 1.125rem;}
+    #main.cards{
     flex-direction: column;height: 100vh;
 }}
     
