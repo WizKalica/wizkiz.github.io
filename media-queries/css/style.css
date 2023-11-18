@@ -218,11 +218,11 @@ a {
         display: flex;
         flex-direction: column;
     }
-    #nav, #nav-links {
+    #nav {
         display: flex;
         flex-direction: column;
     }
-    #footer, .social-media {
+    #footer {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -230,4 +230,11 @@ a {
     .two-cards, .card, h3, a {
         display: flex;
         flex-direction: column;
+    }
+    #hero {
+        display: flex;
+        flex-direction: column;
+    }
+    h1, h3, h2 a {
+        font-size: 1.125rem;
     }}
