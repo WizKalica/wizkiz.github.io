@@ -1,12 +1,17 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 24px;
+    padding: 30px;
+    background-color: lightgray;
+
+}
 h1 {
     text-align: center;
 }
-body {
-    background-color: lightcoral;
-}
+
 #layout {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
@@ -26,4 +31,17 @@ body {
     
 .basic-grid-gallery img {
     width: 100%;
+}
+
+#navbar {
+    background-color: lightsalmon;
+    padding: 24px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
