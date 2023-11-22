@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Myriad Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, #ff931e, #c69c6d);
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    
+
+}
+
+#navbar img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#hero-1 {
+    background-image: url("../images/k8-sWEpcc0Rm0U-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer {
+    background-color: #ff931e;
+    color: white;
+    padding: 12px;}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar {
+    width: 800px;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+
+}
+
+#main {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+
+}
+        
+h3 {
+    text-align: center;
+    margin: 24px 0;
+
+}
+        
+.card {
+    width: 350px;
+    
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #a67c52;
+    background: linear-gradient(-50deg, #c69c6d,#a67c52);
+}
+        
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+        
+.card h2 {
+    font-size: 36px;
+     margin-top: 12px;
+     text-align: center;
+}
+        
+.card p {
+    font-size: 18px;
+    text-align: center;
+
+}
+        
+.anchor-button {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    transition:background-color .5s,color .5s;
+    border-radius: 24px;
+}
+        
+.anchor-button:hover {
+        background-color: transparent;
+        color: red;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    #footer a {
+        display: flex;
+        flex-direction: column;
+    }
+}
