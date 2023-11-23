@@ -26,12 +26,14 @@ body {
 #navbar img {
     width: 100px;
     border-radius: 50%;
+    
 }
 
 #layout {
     display: flex;
     flex-direction: row;
     gap: 100px;
+    margin: 50px;
 }
 #layout img {
     width: 300px;
@@ -40,9 +42,15 @@ body {
     
     
 }
-
+#salads {
+    display: flex;
+    flex-direction: column;
+    
+}
 h1 {
     text-align: center;
+    padding-bottom: 100px;
+    text-decoration: underline;
 }
 #spancer {
     height: 19vh;
@@ -59,14 +67,14 @@ h1 {
 }
 
 #footer-navbar {
-    width: 800px;
+    width: 620px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
     
 #footer-columns-navbar {
-    width: 800px;
+    width: 640px;
     padding: 48px 0px;
     display: flex;
     justify-content: space-between;
@@ -81,13 +89,17 @@ h1 {
 @media screen and (max-width: 725px) {
     h1, h2, h3, h4 {
         font-size: .75rem;
-        align-items: center;
+        text-align: center;
     }
     #layout {
-        display: flex;
-        flex-direction: column;
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-areas: "content sidebar";
+        
 
+    }
+    #layout img {
+        width: 300px;
     }
     #navbar img {
         flex-wrap: wrap;
@@ -95,7 +107,12 @@ h1 {
     #navbar a {
         font-size: .75rem;
     }
-    #footer {
+    #footer a {
         text-align: center;
+        margin-left: 270px;
+        
+    }
+    #layout {
+        margin-left: 10px;
     }
 }

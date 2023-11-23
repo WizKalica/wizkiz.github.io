@@ -129,8 +129,11 @@ h3 {
 
 
 @media screen and (max-width: 480px) {
-    #footer a {
+    #footer {
         display: flex;
         flex-direction: column;
+    }
+    #footer a #footer-columns-navbar a {
+        text-align: center; 
     }
 }
