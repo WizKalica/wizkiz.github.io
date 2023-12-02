@@ -12,29 +12,17 @@ h1 {
     text-align: center;
 }
 
-#layout {
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
-
-}
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-.basic-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
-    gap: 30px;
-}
+.horizontal-masonry-gallery {
+    display: flex;flex-wrap: wrap;gap: 24px;}
     
-.basic-grid-gallery img {
-    width: 100%;
-}
+    
+    .horizontal-masonry-gallery img {
+    height: 250px;flex: 1;object-fit: cover;}
+
+
 
 #navbar {
-    background-color: lightsalmon;
+    
     padding: 24px;
     display: flex;
     justify-content: right;
@@ -43,5 +31,6 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 17px;
 }
