@@ -71,3 +71,6 @@ nav ul li a {
     color: black;
     font-size: 17px;
 }
+#main {
+    display: flex;
+}
