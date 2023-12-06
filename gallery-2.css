@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -34,7 +34,8 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
-    gap: 15px ;
+    
+    gap: 20px ;
 
 }
     
@@ -42,6 +43,7 @@ nav ul li a {
     width: 100%;
 
 }
+
 #layout h1 {
     text-align: center;
     padding: 100px;
