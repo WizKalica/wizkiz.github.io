@@ -74,3 +74,21 @@ nav ul li a {
 #main {
     display: flex;
 }
+
+#two-columns {
+    display: flex;}
+    
+    
+    #sidebar-content {
+    flex: 1;
+}
+    
+    #main-content {
+    
+    flex: 1;
+    padding: 30px;
+}
+
+#sidebar-content img {
+    width: 600px;
+}

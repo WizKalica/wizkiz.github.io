@@ -26,7 +26,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: White;
+    color: black;
     font-size: 17px;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 
 .content a {
     text-decoration: none;
-    color: white;
+    color: black;
     display: inline-block;
     border: 2px solid;
     padding: 14px 70px;
