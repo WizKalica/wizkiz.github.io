@@ -60,3 +60,18 @@ nav ul li a {
     border-radius: 50px;
     margin-top: 20px;
 }
+
+@media (min-aspect-ratio: 16/9) {
+    .cropped-grid-gallery {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .cropped-grid-gallery {
+        width: auto;
+        height: 100%;
+    }
+}

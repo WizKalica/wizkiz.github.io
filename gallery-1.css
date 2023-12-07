@@ -58,3 +58,19 @@ nav ul li a {
     border-radius: 50px;
     margin-top: 20px;
 }
+
+@media (min-aspect-ratio: 725px) {
+    .cropped-grid-gallery img {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        font-size: 2.75rem;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
