@@ -41,6 +41,10 @@ nav ul li a {
     font-size: 17px;
 }
 
+a:hover {
+    color: orange;
+}
+
 .content {
     text-align: center;
 }
