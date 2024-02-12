@@ -17,29 +17,6 @@ body {
     justify-content: center;
 }
 
-nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-    
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: White;
-    font-size: 17px;
-    
-}
-
 a:hover {
     color: black;
     background-color: lightskyblue;
@@ -86,38 +63,7 @@ a:hover {
     z-index: -1;
 }
 
-.card img {
-    width: 100px;
-    border-radius: 24px;
-    margin-top: 24px;
-}
 
-.card h4 {
-    font-size: 28px;
-    padding: 50px;
-}
-
-.card {
-    width: 350px;
-    border: 2px solid #ffe4da;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: -4px 4px 12px #ddd;
-    
-
-}
-
-#main {
-    display: flex;
-}
-
-.dropdown-container {
-    position: relative;
-}
-
-.dropdown-menu {
-    position: absolute;
-}
 
 @media (min-aspect-ratio: 16/9) {
     .back-video {
